@@ -1,0 +1,16 @@
+在项目的根目录创建 .prettierrc
+
+文件的内容为
+
+    
+
+{
+
+  "semi": false,
+
+  "singleQuote": true,
+
+  "printWidth": 200
+
+}
+
