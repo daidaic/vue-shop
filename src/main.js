@@ -28,10 +28,10 @@ Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
 Vue.use(ElementUI)
+// Vue.use(Crumb)
+Vue.component('bread', Crumb)
+
 new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
-
-// Vue.use(Crumb)
-Vue.component('bread', Crumb)
